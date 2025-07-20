@@ -10,7 +10,7 @@ const Layout = () => {
   const { user } = useUser();
   return user ? (
     <div className="flex flex-col items-start justify-start h-screen">
-      <nav className="w-full px-8 min-h-14 flex items-center justify-between border-b border-gray-200">
+      <nav className="w-full px-8 min-h-14 flex items-center justify-between border-b border-gray-700">
         <h1
           onClick={() => navigate("/")}
           className=" text-neutral-300 w-32 sm:w-44 cursor-pointer text-4xl font-extrabold"
