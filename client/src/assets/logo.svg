@@ -1,0 +1,18 @@
+<svg width="240" height="80" viewBox="0 0 240 80" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6a11cb"/>
+      <stop offset="100%" stop-color="#2575fc"/>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Segoe UI, sans-serif" font-weight="bold" font-size="38" fill="url(#grad)">
+    NextMind
+  </text>
+  <circle cx="25" cy="25" r="6" fill="url(#grad)">
+    <animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="215" cy="55" r="4" fill="url(#grad)">
+    <animate attributeName="r" values="4;8;4" dur="3s" repeatCount="indefinite" />
+  </circle>
+</svg>
