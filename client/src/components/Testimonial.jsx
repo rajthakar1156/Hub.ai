@@ -22,7 +22,7 @@ const Testimonial = () => {
 gave us the power of a dozen specialized AI apps in one clean workspace.
 We went from juggling tools to just getting remarkable work done.”</p>
                     <p className="mt-4">— John Doe</p>
-                    <p className="text-sm font-medium bg-gradient-to-r from-[#8B5CF6] via-[#E0724A] to-[#9938CA] text-transparent bg-clip-text">Content Marketing</p>
+                    <p className="text-sm font-medium bg-gradient-to-r from-[#8B5CF6] via-[#E0724A] to-[#9938CA] text-transparent bg-clip-text">Software Engineer</p>
                 </div>
             </div>
             <div className="max-w-80 bg-black text-white rounded-2xl">

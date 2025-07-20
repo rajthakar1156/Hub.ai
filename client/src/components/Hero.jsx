@@ -37,7 +37,7 @@ const Hero = () => {
         >
           Start creating now
         </button>
-        <button className="bg-white px-10 py-3 rounded-lg border border-gray-300 hover:scale-102 active:scale-95 transition cursor-pointer">
+        <button  className="bg-white px-10 py-3 rounded-lg border border-gray-300 hover:scale-102 active:scale-95 transition cursor-pointer">
           Watch demo
         </button>
       </div>
