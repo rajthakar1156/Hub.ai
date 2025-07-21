@@ -36,7 +36,7 @@ const RemoveBackground = () => {
   };
   return (
     <div className="h-full overflow-y-scroll p-6 flex items-start flex-wrap gap-4 bg-[#0c0c0e]">
-      {/*--left col---*/}
+     
       <form
         onSubmit={onSubmitHandler}
         className="w-full max-w-lg p-4 bg-[#252629] rounded-lg "

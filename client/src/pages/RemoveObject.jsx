@@ -15,15 +15,15 @@ const RemoveObject = () => {
 
   const onSubmitHandler = async (e) => {
     e.preventDefault();
-    setLoading(true);
+    
+    try {
+      setLoading(true);
 
     if (object.trim().split(/\s+/).length > 1) {
       toast.error("Please enter only one object name");
       setLoading(false);
       return;
     }
-
-    try {
       const formData = new FormData();
       formData.append("image", input);
       formData.append("object", object);
@@ -51,7 +51,7 @@ const RemoveObject = () => {
 
   return (
     <div className="h-full overflow-y-scroll p-6 flex items-start flex-wrap gap-4 bg-[#0c0c0e] ">
-      {/* Left column */}
+      
       <form
         onSubmit={onSubmitHandler}
         className="w-full max-w-lg p-4  rounded-lg bg-[#252627]"
@@ -93,7 +93,7 @@ const RemoveObject = () => {
         </button>
       </form>
 
-      {/* Right column */}
+      
       <div className="w-full max-w-lg p-4 bg-[#252627] rounded-lg flex flex-col  min-h-96">
         <div className="flex items-center gap-3">
           <Scissors className="w-5 h-5 text-[#4A7AFF]" />

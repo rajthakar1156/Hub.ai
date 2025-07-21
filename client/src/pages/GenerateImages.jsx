@@ -48,7 +48,7 @@ const GenerateImages = () => {
   };
   return (
     <div className="h-full overflow-y-scroll p-6 flex items-start flex-wrap gap-4 bg-[#0c0c0e] ">
-      {/*--left col---*/}
+      
       <form
         onSubmit={onSubmitHandler}
         className="w-full max-w-lg p-4 bg-[#252627] rounded-lg "
@@ -105,7 +105,7 @@ const GenerateImages = () => {
           Generate Image
         </button>
       </form>
-      {/*---Right col---*/}
+    
       <div className="w-full max-w-lg p-4  rounded-lg flex flex-col bg-[#252629] min-h-96">
         <div className="flex items-center gap-3">
           <Image className="w-5 h-5 text-[#00AD25]" />

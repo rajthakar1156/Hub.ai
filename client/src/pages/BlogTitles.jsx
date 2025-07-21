@@ -49,7 +49,7 @@ const BlogTitles = () => {
   };
   return (
     <div className="h-full overflow-y-scroll p-6 flex items-start flex-wrap gap-4  bg-[#0c0c0e]">
-      {/*--left col---*/}
+
       <form
         onSubmit={onSubmitHandler}
         className="w-full max-w-lg p-4 bg-[#262729] rounded-lg "
@@ -98,7 +98,7 @@ const BlogTitles = () => {
           Generate title
         </button>
       </form>
-      {/*---Right col---*/}
+      
       <div className="w-full max-w-lg p-4 bg-[#262729] rounded-lg flex flex-col min-h-96">
         <div className="flex items-center gap-3">
           <Hash className="w-5 h-5 text-[#8E37EB]" />
@@ -112,7 +112,7 @@ const BlogTitles = () => {
             </div>
           </div>
         ) : (
-          <div className="mt-3 h-full overflow-y-scroll text-sm text-slate-600">
+          <div className="mt-3 h-full overflow-y-scroll text-sm text-slate-300">
             <div className="reset-tw">
               <Markdown>{content}</Markdown>
             </div>

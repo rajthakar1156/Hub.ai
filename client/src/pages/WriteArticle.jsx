@@ -77,13 +77,13 @@ const WriteArticle = () => {
         </div>
         {!content ? (
           <div className='flex-1 flex justify-center items-center'>
-           <div className='text-sm flex flex-col items-center gap-5 text-gray-400'> 
+           <div className='text-sm flex flex-col items-center gap-5 text-gray-500'> 
                 <Edit className='w-9 h-9' />
                 <p>Enter a topic and click "Generate article" to get started</p>
            </div>
         </div>
         ) : (
-         <div className='mt-3 h-full overflow-y-scroll text-sm text-slate-600'>
+         <div className='mt-3 h-full overflow-y-scroll text-sm text-slate-300'>
             <div className='reset-tw'>
                <Markdown>
                 {content}
